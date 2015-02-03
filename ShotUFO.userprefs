@@ -1,0 +1,42 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GameCore/StateMachine/StateMachine.cs">
+    <Files>
+      <File FileName="Assets/GameCore/StateMachine/FSState.cs" Line="12" Column="20" />
+      <File FileName="Assets/GameEngine/GameStart/GameCore.cs" Line="44" Column="43" />
+      <File FileName="Assets/GameEngine/GameStart/GameEntry.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameEngine/GameStart/GameStarter/AGameStarterBase.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameEngine/GameStart/GameStarter/AndroidStarter.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameEngine/GameStart/GameStarter/WinStandAloneStarter.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameCore/StateMachine/StateMachine.cs" Line="97" Column="51" />
+      <File FileName="Assets/GameCore/GameState/AGameState.cs" Line="11" Column="48" />
+      <File FileName="Assets/GameCore/GameState/GameBattleState.cs" Line="24" Column="15" />
+      <File FileName="Assets/GameCore/GameState/GameMainMenuState.cs" Line="25" Column="15" />
+      <File FileName="Assets/GameCore/GameState/GameStartState.cs" Line="30" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Assembly-CSharp" expanded="True">
+            <Node name="GameCore" expanded="True">
+              <Node name="GameState" expanded="True" />
+              <Node name="StateMachine" expanded="True">
+                <Node name="StateMachine.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="GameEngine" expanded="True">
+              <Node name="GameStart" expanded="True">
+                <Node name="GameStarter" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+          <Node name="Assembly-CSharp-Editor" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
