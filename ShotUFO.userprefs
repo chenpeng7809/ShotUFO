@@ -1,39 +1,23 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GameCore/StateMachine/StateMachine.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GameEngine/GameView/FightUI.cs">
     <Files>
-      <File FileName="Assets/GameCore/StateMachine/FSState.cs" Line="12" Column="20" />
-      <File FileName="Assets/GameEngine/GameStart/GameCore.cs" Line="44" Column="43" />
-      <File FileName="Assets/GameEngine/GameStart/GameEntry.cs" Line="1" Column="1" />
-      <File FileName="Assets/GameEngine/GameStart/GameStarter/AGameStarterBase.cs" Line="1" Column="1" />
-      <File FileName="Assets/GameEngine/GameStart/GameStarter/AndroidStarter.cs" Line="1" Column="1" />
-      <File FileName="Assets/GameEngine/GameStart/GameStarter/WinStandAloneStarter.cs" Line="1" Column="1" />
-      <File FileName="Assets/GameCore/StateMachine/StateMachine.cs" Line="97" Column="51" />
-      <File FileName="Assets/GameCore/GameState/AGameState.cs" Line="11" Column="48" />
-      <File FileName="Assets/GameCore/GameState/GameBattleState.cs" Line="24" Column="15" />
-      <File FileName="Assets/GameCore/GameState/GameMainMenuState.cs" Line="25" Column="15" />
-      <File FileName="Assets/GameCore/GameState/GameStartState.cs" Line="30" Column="14" />
+      <File FileName="Assets/GameCore/Battle/GameBattleManager.cs" Line="27" Column="10" />
+      <File FileName="../../ProjectX/Client/LegendOfDota/Assets/Stein/SteinsClient/SteinSkill/Skill/SkillPhase/SkillPhaseBegin.cs" Line="1" Column="1" />
+      <File FileName="../../ProjectX/Client/LegendOfDota/Assets/Stein/SteinsClient/SteinCharacter/Character/ASteinCharacterBase.cs" Line="1" Column="1" />
+      <File FileName="../../ProjectX/Client/LegendOfDota/Assets/Stein/SteinsClient/SteinCharacter/CharacterState/CharacterCasting.cs" Line="1" Column="1" />
+      <File FileName="../../ProjectX/Client/LegendOfDota/Assets/LODProject/LODClient/GameHero/GameHero.cs" Line="1" Column="1" />
+      <File FileName="../../ProjectX/Client/LegendOfDota/Assets/LODProject/LODClient/GameModules/FightMain/Fight_PlayerItem.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameCore/ClientData/AClientDataForm.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameCore/ClientData/XMLDataHolder.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameEngine/GamePlayer/AnimationController.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameCore/ClientData/ClientDataManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameEngine/Scene/GameScene.cs" Line="36" Column="39" />
+      <File FileName="Assets/GameEngine/GameView/FightUI.cs" Line="7" Column="3" />
+      <File FileName="Assets/GameEngine/GameView/AUIBase.cs" Line="9" Column="3" />
+      <File FileName="Assets/GameEngine/GameView/ModuleProtocol.cs" Line="8" Column="8" />
+      <File FileName="Assets/GameEngine/GameView/ModuleManager.cs" Line="57" Column="4" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State expanded="True">
-          <Node name="Assembly-CSharp" expanded="True">
-            <Node name="GameCore" expanded="True">
-              <Node name="GameState" expanded="True" />
-              <Node name="StateMachine" expanded="True">
-                <Node name="StateMachine.cs" selected="True" />
-              </Node>
-            </Node>
-            <Node name="GameEngine" expanded="True">
-              <Node name="GameStart" expanded="True">
-                <Node name="GameStarter" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
-          <Node name="Assembly-CSharp-Editor" expanded="True" />
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

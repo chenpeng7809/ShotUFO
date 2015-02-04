@@ -46,17 +46,28 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\GameCore\Battle\GameBattleManager.cs" />
+     <Compile Include="Assets\GameCore\ClientData\AClientDataForm.cs" />
+     <Compile Include="Assets\GameCore\ClientData\ClientDataManager.cs" />
+     <Compile Include="Assets\GameCore\ClientData\XMLDataHolder.cs" />
+     <Compile Include="Assets\GameCore\ClientData\XMLDoc.cs" />
      <Compile Include="Assets\GameCore\GameState\AGameState.cs" />
      <Compile Include="Assets\GameCore\GameState\GameBattleState.cs" />
      <Compile Include="Assets\GameCore\GameState\GameMainMenuState.cs" />
      <Compile Include="Assets\GameCore\GameState\GameStartState.cs" />
      <Compile Include="Assets\GameCore\StateMachine\FSState.cs" />
      <Compile Include="Assets\GameCore\StateMachine\StateMachine.cs" />
+     <Compile Include="Assets\GameEngine\GamePlayer\AnimationController.cs" />
      <Compile Include="Assets\GameEngine\GameStart\GameCore.cs" />
      <Compile Include="Assets\GameEngine\GameStart\GameEntry.cs" />
      <Compile Include="Assets\GameEngine\GameStart\GameStarter\AGameStarterBase.cs" />
      <Compile Include="Assets\GameEngine\GameStart\GameStarter\AndroidStarter.cs" />
      <Compile Include="Assets\GameEngine\GameStart\GameStarter\WinStandAloneStarter.cs" />
+     <Compile Include="Assets\GameEngine\GameView\AUIBase.cs" />
+     <Compile Include="Assets\GameEngine\GameView\FightUI.cs" />
+     <Compile Include="Assets\GameEngine\GameView\ModuleManager.cs" />
+     <Compile Include="Assets\GameEngine\GameView\ModuleProtocol.cs" />
+     <Compile Include="Assets\GameEngine\Scene\GameScene.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipItems.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipRandomItem.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\UICursor.cs" />
