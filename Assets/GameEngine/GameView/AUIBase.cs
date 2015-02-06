@@ -20,7 +20,7 @@ public class AUIBase : MonoBehaviour
 				FrameUpdate (Time.deltaTime);
 		}
 
-		public virtual void OnClose ()
+		public virtual void OnClose (object param)
 		{
 
 		}

@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class ModuleManager
+public class ModuleManager : MonoBehaviour
 {
 	#region 单例
 		private static ModuleManager _instance;
@@ -53,16 +53,16 @@ public class ModuleManager
 						//TODO 加载UI资源
 						Object prefab = Resources.LoadAssetAtPath (UIResoucePath + uiNameMap[moduleId], typeof(GameObject));
 						GameObject cube = (GameObject)GameObject.Instantiate (prefab);
-//						cube.transform.parent = transform;
+						cube.transform.parent = transform;
 
 						moduleList [moduleId].OnOpen (param);
 				}
 		}
 
-		public void CloseUI (ModuleId moduleId)
+		public void CloseUI (ModuleId moduleId, object param = null)
 		{
 				if (moduleList.ContainsKey (moduleId)) {
-						moduleList [moduleId].OnClose ();
+						moduleList [moduleId].OnClose (param);
 				} else {
 						Debug.LogError ("Close UI failded, because module[" + moduleId + "]didn't exist");
 				}

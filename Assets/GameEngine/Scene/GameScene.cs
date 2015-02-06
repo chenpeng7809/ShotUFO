@@ -36,8 +36,8 @@ public class GameScene : MonoBehaviour
 				cube.transform.parent = transform;
 		}
 
-		UISprite bgLeft;
-		UISprite bgRight;
+		public UISprite bgLeft;
+		public UISprite bgRight;
 
 		void Update ()
 		{

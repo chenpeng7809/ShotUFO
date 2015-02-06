@@ -51,12 +51,15 @@
      <Compile Include="Assets\GameCore\ClientData\ClientDataManager.cs" />
      <Compile Include="Assets\GameCore\ClientData\XMLDataHolder.cs" />
      <Compile Include="Assets\GameCore\ClientData\XMLDoc.cs" />
+     <Compile Include="Assets\GameCore\DataStruct\CacheLinkedList.cs" />
      <Compile Include="Assets\GameCore\GameState\AGameState.cs" />
      <Compile Include="Assets\GameCore\GameState\GameBattleState.cs" />
      <Compile Include="Assets\GameCore\GameState\GameMainMenuState.cs" />
      <Compile Include="Assets\GameCore\GameState\GameStartState.cs" />
      <Compile Include="Assets\GameCore\StateMachine\FSState.cs" />
      <Compile Include="Assets\GameCore\StateMachine\StateMachine.cs" />
+     <Compile Include="Assets\GameCore\Timer\IUpdateListener.cs" />
+     <Compile Include="Assets\GameCore\Timer\UITimer.cs" />
      <Compile Include="Assets\GameEngine\GamePlayer\AnimationController.cs" />
      <Compile Include="Assets\GameEngine\GameStart\GameCore.cs" />
      <Compile Include="Assets\GameEngine\GameStart\GameEntry.cs" />

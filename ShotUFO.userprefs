@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GameEngine/GameView/FightUI.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GameCore/Timer/UITimer.cs">
     <Files>
-      <File FileName="Assets/GameCore/Battle/GameBattleManager.cs" Line="27" Column="10" />
+      <File FileName="Assets/GameCore/Timer/IUpdateListener.cs" Line="6" Column="38" />
+      <File FileName="Assets/GameCore/Battle/GameBattleManager.cs" Line="1" Column="1" />
       <File FileName="../../ProjectX/Client/LegendOfDota/Assets/Stein/SteinsClient/SteinSkill/Skill/SkillPhase/SkillPhaseBegin.cs" Line="1" Column="1" />
       <File FileName="../../ProjectX/Client/LegendOfDota/Assets/Stein/SteinsClient/SteinCharacter/Character/ASteinCharacterBase.cs" Line="1" Column="1" />
       <File FileName="../../ProjectX/Client/LegendOfDota/Assets/Stein/SteinsClient/SteinCharacter/CharacterState/CharacterCasting.cs" Line="1" Column="1" />
@@ -12,11 +13,21 @@
       <File FileName="Assets/GameCore/ClientData/XMLDataHolder.cs" Line="1" Column="1" />
       <File FileName="Assets/GameEngine/GamePlayer/AnimationController.cs" Line="1" Column="1" />
       <File FileName="Assets/GameCore/ClientData/ClientDataManager.cs" Line="1" Column="1" />
-      <File FileName="Assets/GameEngine/Scene/GameScene.cs" Line="36" Column="39" />
-      <File FileName="Assets/GameEngine/GameView/FightUI.cs" Line="7" Column="3" />
-      <File FileName="Assets/GameEngine/GameView/AUIBase.cs" Line="9" Column="3" />
-      <File FileName="Assets/GameEngine/GameView/ModuleProtocol.cs" Line="8" Column="8" />
-      <File FileName="Assets/GameEngine/GameView/ModuleManager.cs" Line="57" Column="4" />
+      <File FileName="Assets/GameEngine/Scene/GameScene.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameEngine/GameView/FightUI.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameEngine/GameView/AUIBase.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameEngine/GameView/ModuleProtocol.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameEngine/GameView/ModuleManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/NGUI/Examples/Scripts/InventorySystem/Game/UIStorageSlot.cs" Line="1" Column="1" />
+      <File FileName="Assets/NGUI/Examples/Scripts/InventorySystem/Game/UIEquipmentSlot.cs" Line="1" Column="1" />
+      <File FileName="Assets/NGUI/Examples/Scripts/InventorySystem/System/InvEquipment.cs" Line="1" Column="1" />
+      <File FileName="Assets/NGUI/Examples/Scripts/InventorySystem/Game/EquipItems.cs" Line="1" Column="1" />
+      <File FileName="Assets/NGUI/Examples/Scripts/InventorySystem/Game/UIItemSlot.cs" Line="1" Column="1" />
+      <File FileName="Assets/NGUI/Examples/Scripts/InventorySystem/Game/UIItemStorage.cs" Line="1" Column="1" />
+      <File FileName="Assets/NGUI/Examples/Scripts/Other/ExampleDragDropItem.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameCore/DataStruct/CacheLinkedList.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameEngine/GameStart/GameCore.cs" Line="41" Column="36" />
+      <File FileName="Assets/GameCore/Timer/UITimer.cs" Line="17" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
